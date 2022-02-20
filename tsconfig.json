@@ -24,7 +24,7 @@
       "common": ["app/common"],
       "hooks": ["app/hooks"],
       "store": ["app/store"],
-      "types": ["app/types"],
+      "types": ["app/app-types"],
       "public": ["public"],
 
       "boot/*": ["app/boot/*"],
@@ -35,7 +35,7 @@
       "common/*": ["app/common/*"],
       "hooks/*": ["app/hooks/*"],
       "store/*": ["app/store/*"],
-      "types/*": ["app/types/*"],
+      "types/*": ["app/app-types/*"],
       "public/*": ["public/*"]
     }
   },
