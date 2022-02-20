@@ -1,11 +1,11 @@
 import { Categories } from "app/app-types";
-import guitar from "public/example/images/gi.jpg";
-import example2 from "public/example/images/2.jpg";
-import example3 from "public/example/images/3.jpg";
-import example4 from "public/example/images/4.jpg";
-import example5 from "public/example/images/5.jpg";
-import example6 from "public/example/images/6.jpg";
-import example7 from "public/example/images/7.jpg";
+import guitar from "public/images/example/gi.jpg";
+import example2 from "public/images/example/2.jpg";
+import example3 from "public/images/example/3.jpg";
+import example4 from "public/images/example/4.jpg";
+import example5 from "public/images/example/5.jpg";
+import example6 from "public/images/example/6.jpg";
+import example7 from "public/images/example/7.jpg";
 
 const CATEGORIES: Categories[] = [
   {
