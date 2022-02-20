@@ -9,6 +9,7 @@ import Link from "next/Link";
 
 const TOP_HEADER_OPTIONS = ["Contact us", "About us"];
 const MIDDLE_HEADER_OPTIONS = ["Hot Deals", "New", "Top-Seller", "Bargains"];
+const ICON_MENU = [User, Wishlist, Cart];
 
 const HeaderView = () => (
   <div>
@@ -16,7 +17,12 @@ const HeaderView = () => (
       <div className={styles.topHeaderWrapper}>
         <div className={styles.topHeaderMenu}>
           {TOP_HEADER_OPTIONS.map((item) => (
-            <div key={item}>{item}</div>
+            <Link key={item} href="/">
+              {/* TODO add real link */}
+              <a className={styles.link}>
+                <div>{item}</div>
+              </a>
+            </Link>
           ))}
         </div>
         <div className={styles.titleWrapper}>
@@ -32,14 +38,24 @@ const HeaderView = () => (
           <BurgerMenu />
           <div className={styles.middleHeaderMenu}>
             {MIDDLE_HEADER_OPTIONS.map((item) => (
-              <div key={item}>{item}</div>
+              <Link key={item} href="/">
+                {/* TODO add real link */}
+                <a className={styles.link}>
+                  <div>{item}</div>
+                </a>
+              </Link>
             ))}
           </div>
         </div>
         <div className={styles.iconMenu}>
-          <User fontSize="large" />
-          <Wishlist fontSize="large" />
-          <Cart fontSize="large" />
+          {ICON_MENU.map((Item, i) => (
+            <Link key={i} href="/">
+              {/* TODO */}
+              <a className={styles.iconLink}>
+                <Item fontSize="large" />
+              </a>
+            </Link>
+          ))}
         </div>
       </div>
     </div>

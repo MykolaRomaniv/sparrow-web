@@ -12,6 +12,17 @@ $header-width: 90%;
     .topHeaderMenu {
       display: flex;
       column-gap: 10px;
+
+      .link {
+        font-size: 14px;
+        line-height: 22px;
+        letter-spacing: -0.1px;
+        font-weight: 400;
+
+        &:hover {
+          color: #7e00f3;
+        }
+      }
     }
 
     .titleWrapper {
@@ -41,12 +52,29 @@ $header-width: 90%;
         margin-left: 30px;
         display: flex;
         column-gap: 10px;
+
+        .link {
+          font-size: 16px;
+          line-height: 24px;
+          letter-spacing: -0.26px;
+          font-weight: 600;
+
+          &:hover {
+            color: #7e00f3;
+          }
+        }
       }
     }
 
     .iconMenu {
       display: flex;
       column-gap: 12px;
+
+      .iconLink {
+        &:hover {
+          color: #7e00f3;
+        }
+      }
     }
   }
 }
