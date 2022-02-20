@@ -5,6 +5,7 @@ import Wishlist from "@mui/icons-material/FavoriteBorderOutlined";
 import Cart from "@mui/icons-material/ShoppingCartOutlined";
 import LogoIcon from "common/icons/Logo";
 import CATEGORIES from "constants/categories";
+import Link from "next/Link";
 
 const TOP_HEADER_OPTIONS = ["Contact us", "About us"];
 const MIDDLE_HEADER_OPTIONS = ["Hot Deals", "New", "Top-Seller", "Bargains"];
@@ -45,7 +46,11 @@ const HeaderView = () => (
     <div className={styles.bottomHeaderWrapper}>
       <div className={styles.bottomHeaderMenuInner}>
         {CATEGORIES.map((item) => (
-          <div key={item.name}>{item.name}</div>
+          <Link key={item.name} href="/">
+            <a className={styles.menuLink}>
+              <div>{item.name}</div>
+            </a>
+          </Link>
         ))}
       </div>
     </div>

@@ -62,5 +62,17 @@ $header-width: 90%;
     justify-content: space-between;
     align-items: center;
     height: 50px;
+
+    .menuLink {
+      padding: 4px 12px;
+      border-radius: 6px;
+      font-size: 16px;
+      line-height: 24px;
+      letter-spacing: -0.26px;
+
+      &:hover {
+        background-color: #6009b0;
+      }
+    }
   }
 }
