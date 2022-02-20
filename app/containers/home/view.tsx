@@ -9,7 +9,8 @@ const HomeView = () => (
     <div className={styles.categoryList}>
       {CATEGORIES.map((category) => (
         <div key={category.name} className={styles.categoryWrapper}>
-          <Link href="/qq">
+          {/* TODO add real links */}
+          <Link href="/">
             <a className={styles.categoryLink}>
               <Image
                 src={category.image}
