@@ -1,6 +1,7 @@
 import Layout from "common/layout";
 import type { NextPage } from "next";
 import Head from "next/head";
+
 import View from "./view";
 
 const Home: NextPage = () => (

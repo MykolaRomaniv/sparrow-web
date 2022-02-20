@@ -1,7 +1,8 @@
 import CATEGORIES from "constants/categories";
 import Image from "next/image";
-import styles from "./Home.module.scss";
 import Link from "next/link";
+
+import styles from "./Home.module.scss";
 
 const HomeView = () => (
   <div>

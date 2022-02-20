@@ -1,11 +1,12 @@
-import styles from "./Header.module.scss";
-import BurgerMenu from "../icons/BurgerMenu";
 import User from "@mui/icons-material/AccountCircleOutlined";
 import Wishlist from "@mui/icons-material/FavoriteBorderOutlined";
 import Cart from "@mui/icons-material/ShoppingCartOutlined";
 import LogoIcon from "common/icons/Logo";
 import CATEGORIES from "constants/categories";
 import Link from "next/Link";
+
+import BurgerMenu from "../icons/BurgerMenu";
+import styles from "./Header.module.scss";
 
 const TOP_HEADER_OPTIONS = ["Contact us", "About us"];
 const MIDDLE_HEADER_OPTIONS = ["Hot Deals", "New", "Top-Seller", "Bargains"];

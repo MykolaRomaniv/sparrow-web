@@ -1,7 +1,3 @@
-import React from "react";
-
-const FooterView = () => {
-  return <div>FooterView</div>;
-};
+const FooterView = () => <div>FooterView</div>;
 
 export default FooterView;

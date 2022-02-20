@@ -1,21 +1,21 @@
 import { Categories } from "app/app-types";
-import guitar from "public/images/example/gi.jpg";
 import example3 from "public/images/example/3.jpg";
 import example4 from "public/images/example/4.jpg";
 import example5 from "public/images/example/5.jpg";
 import example6 from "public/images/example/6.jpg";
 import example7 from "public/images/example/7.jpg";
-import li from "public/images/example/li.jpg";
-import dj from "public/images/example/dj.jpg";
-import mi from "public/images/example/mi.jpg";
-import vi from "public/images/example/vi.jpg";
 import bl from "public/images/example/bl.jpg";
-import tr from "public/images/example/tr.jpg";
-import no from "public/images/example/no.jpg";
 import ca from "public/images/example/ca.jpg";
+import dj from "public/images/example/dj.jpg";
+import guitar from "public/images/example/gi.jpg";
 import ka from "public/images/example/ka.jpg";
-import zu from "public/images/example/zu.jpg";
+import li from "public/images/example/li.jpg";
+import mi from "public/images/example/mi.jpg";
+import no from "public/images/example/no.jpg";
 import sp from "public/images/example/sp.jpg";
+import tr from "public/images/example/tr.jpg";
+import vi from "public/images/example/vi.jpg";
+import zu from "public/images/example/zu.jpg";
 
 const CATEGORIES: Categories[] = [
   {
