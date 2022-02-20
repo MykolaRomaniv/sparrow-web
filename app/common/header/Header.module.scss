@@ -1,0 +1,16 @@
+.headerWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+
+  .topHeaderMenu {
+    display: flex;
+    column-gap: 10px;
+  }
+
+  .title {
+    font-size: 36px;
+  }
+}
