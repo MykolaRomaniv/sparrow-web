@@ -4,28 +4,10 @@ import User from "@mui/icons-material/AccountCircleOutlined";
 import Wishlist from "@mui/icons-material/FavoriteBorderOutlined";
 import Cart from "@mui/icons-material/ShoppingCartOutlined";
 import LogoIcon from "common/icons/Logo";
+import CATEGORIES from "constants/categories";
 
 const TOP_HEADER_OPTIONS = ["Contact us", "About us"];
 const MIDDLE_HEADER_OPTIONS = ["Hot Deals", "New", "Top-Seller", "Bargains"];
-const BOTTOM_HEADER_OPTIONS = [
-  "Guit/Bass",
-  "Drums",
-  "Keys",
-  "Studio",
-  "Software",
-  "PA",
-  "Lighting",
-  "DJ",
-  "Video",
-  "Microphones",
-  "Signal Proc.",
-  "Brass",
-  "Traditional",
-  "Sheet",
-  "Cases",
-  "Cables",
-  "Accessories",
-];
 
 const HeaderView = () => (
   <div>
@@ -62,8 +44,8 @@ const HeaderView = () => (
     </div>
     <div className={styles.bottomHeaderWrapper}>
       <div className={styles.bottomHeaderMenuInner}>
-        {BOTTOM_HEADER_OPTIONS.map((item) => (
-          <div key={item}>{item}</div>
+        {CATEGORIES.map((item) => (
+          <div key={item.name}>{item.name}</div>
         ))}
       </div>
     </div>
