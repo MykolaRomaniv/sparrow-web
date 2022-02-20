@@ -1,0 +1,35 @@
+.categoriesTitle {
+  font-size: 36px;
+  line-height: 46px;
+  letter-spacing: -1.6px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.categoryList {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: auto;
+  justify-content: space-between;
+
+  .categoryWrapper {
+    width: 30%;
+
+    .categoryLink {
+      display: flex;
+      align-items: center;
+
+      &:hover {
+        color: #7e00f3;
+      }
+
+      .categoryName {
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: -0.26px;
+        margin-left: 8px;
+      }
+    }
+  }
+}

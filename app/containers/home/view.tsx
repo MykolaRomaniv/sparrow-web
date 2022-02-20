@@ -1,3 +1,29 @@
-const HomeView = () => <div>HomeView</div>;
+import CATEGORIES from "constants/categories";
+import Image from "next/image";
+import styles from "./Home.module.scss";
+import Link from "next/link";
+
+const HomeView = () => (
+  <div>
+    <h2 className={styles.categoriesTitle}>Our Categories</h2>
+    <div className={styles.categoryList}>
+      {CATEGORIES.map((category) => (
+        <div key={category.name} className={styles.categoryWrapper}>
+          <Link href="/qq">
+            <a className={styles.categoryLink}>
+              <Image
+                src={category.image}
+                alt={category.name}
+                height={90}
+                width={90}
+              />
+              <div className={styles.categoryName}>{category.longName}</div>
+            </a>
+          </Link>
+        </div>
+      ))}
+    </div>
+  </div>
+);
 
 export default HomeView;
