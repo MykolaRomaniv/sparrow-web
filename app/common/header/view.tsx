@@ -3,7 +3,7 @@ import Wishlist from "@mui/icons-material/FavoriteBorderOutlined";
 import Cart from "@mui/icons-material/ShoppingCartOutlined";
 import LogoIcon from "common/icons/Logo";
 import CATEGORIES from "constants/categories";
-import Link from "next/Link";
+import Link from "next/link";
 
 import BurgerMenu from "../icons/BurgerMenu";
 import styles from "./Header.module.scss";
